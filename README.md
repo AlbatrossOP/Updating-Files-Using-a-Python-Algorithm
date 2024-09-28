@@ -1,5 +1,3 @@
-# Updating-Files-Using-a-Python-Algorithm
-
 <h1>Updating Files Using A Python Algorithm</h1>
 
 <h2>Description</h2>
@@ -41,6 +39,7 @@ Updating the File with the Revised List of OP Addresses:  <br/>
 <img src="https://i.imgur.com/SXcExjF.png" height="80%" width="80%" alt="Updating the File with the Revised List of OP Addresses"/>
 <br />
 <br />
+
 I wanted to write the updated allow list as a string to the file "allow_list.txt". This way, the restricted content will no longer be accessible to any IP addresses that were removed from the allow list. To rewrite the file, I appended the ".write()" function to the file "object file" that I identified in the "with" statement. I passed in the ip_addresses variable as the argument to specify that the contents of the file specified in the with statement should be replaced with the data in this variable.
 <br />
 <h2>Summary</h2>
